@@ -14,11 +14,11 @@
 
         <table align="center" class="table">
              <tr>
-                <td><a href="index.html" class="active">Beranda</a></td>
-                <td><a href="biodata.html">Biodata</a></td>
-                <td><a href="contact.html">contact</a></td>
-                <td><a href="data.html">data</a></td>
-                <td><a href="form.html">form mahasiswa</a></td>
+                <td><a href="index.php" class="active">Beranda</a></td>
+                <td><a href="biodata.php">Biodata</a></td>
+                <td><a href="contact.php">contact</a></td>
+                <td><a href="data.php">data</a></td>
+                <td><a href="form.php">form mahasiswa</a></td>
             </tr>
         </table>
 

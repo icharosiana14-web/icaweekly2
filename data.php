@@ -13,28 +13,43 @@
 
         <table border="1" align="center" cellspacing="0" class="table">
             <tr>
-                <td><a href="index.html">Beranda</a></td>
-                <td><a href="biodata.html">Biodata</a></td>
-                <td><a href="contact.html">Kontak</a></td>
-                <td><a href="data.html">Data</a></td>
-                <td><a href="form.html">form mahasiswa</a></td>
-            </tr>
-        </table>
-        <br><br>
-        <table border="1" cellpadding="5px">
-            <tr>
-                <td rowspan="2">baris 1 dan 2, kolom1</td>
-                <td colspan="2">baris 1, kolom 2</td>
-                <!-- <td>baris 2, kolom 2</td> -->
-            </tr>
-            <tr>
-                <td>baris 2, kolom 1</td>
-                <td>baris 2, kolom 2</td>
-                <!-- <td>baris 2, kolom 3</td> -->
+                <td><a href="index.php">Beranda</a></td>
+                <td><a href="biodata.php">Biodata</a></td>
+                <td><a href="contact.php">Kontak</a></td>
+                <td><a href="data.php">Data</a></td>
+                <td><a href="form.php">form mahasiswa</a></td>
             </tr>
         </table>
 
+        <br><br>
+        <h2>Data Mahasiswa</h2>
+        <a href="tambahan.php"><button></a>
+        <table border="1" cellpadding="5px">
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>NIM</th>
+                <th>Program Studi</th>
+                <th>Email</th>
+                <th>Nomor Whatsapp</th>
+                <th>Foto</th>
+                <th>Aksi</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Ichya</td>
+                <td> 13242520050 </td>
+                <td>Teknologi Informasi Digital </td>
+                <td>icharosiana14@gmail.com</td>
+                <td>081987654321</td>
+                <td><img src="icha.jpeg" width="50"></td>
+                <td>
+                    <a href="editdata.php"><button>Edit</button></a>
+                    <a href="deletedata.php"><button>Hapus</button></a>
+                </td>
+            </tr>
         </table>
+
         <br><br>
         <table border="1" cellpadding="5px">
             <tr>
