@@ -1,3 +1,18 @@
+<?php
+
+    $koneksi = mysql_connect("localhost", "root", "", "icaweekly2");
+
+    $query = "SELECT * FROM mahasiswa";
+
+    $query = mysql_query($koneksi, $query); //// object
+
+
+?>
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -77,5 +92,21 @@
                 
             </tr>
         </table>
+
+  <?php
+
+$koneksi = mysqli_connect("localhost", "root", "", "icaweekly2");
+
+$query = "SELECT * FROM mahasiswa";
+
+$result = mysqli_query($koneksi, $query); ///object result dari query
+
+// ambil data (fetch_row) dari mahasiswa
+
+// 1. mysqli_fetch_row() 
+
+?>
+
+
 </body>
 </html>

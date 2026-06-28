@@ -13,6 +13,10 @@
         </h2>
 
         <table align="center" class="table">
+
+        <?php
+            while($mhs = mysqli_fetch_)
+
              <tr>
                 <td><a href="index.php" class="active">Beranda</a></td>
                 <td><a href="biodata.php">Biodata</a></td>
@@ -20,6 +24,8 @@
                 <td><a href="data.php">data</a></td>
                 <td><a href="form.php">form mahasiswa</a></td>
             </tr>
+        <?php
+
         </table>
 
     <div class="container">
